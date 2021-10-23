@@ -7,5 +7,7 @@ public class StaticBlockPractice {
 
 	public static void main(String[] args) {
 		System.out.println("This is main method");
+		System.out.println("write main method code here");
+		
 	}
 }
