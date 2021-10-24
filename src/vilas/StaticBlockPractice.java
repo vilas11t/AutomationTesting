@@ -1,6 +1,6 @@
 package vilas;
 
-public class StaticBlockPractice {
+public class StaticBlockPractice extends A {
 	static {
 		System.out.println("This is static block");
 	}
