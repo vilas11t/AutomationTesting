@@ -5,11 +5,11 @@ public class ParentClass {
 	{
 		System.out.println("i am parent engine");
 	}
-public void breaks ()
+	protected void breaks ()
 {
 	System.out.println("i am parents breaks");
 	}
-public void bodyColor () 
+	public void bodyColor () 
 {
 	System.out.println("i am parents color");
 }
