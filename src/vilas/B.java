@@ -3,7 +3,10 @@ package vilas;
 public class B extends A {
 	
 	void m3() {
-		m1();
+	}
+	
+	void m1() {
+		System.out.println("This is method1 form class B");
 	}
 	
 	void m4() {
@@ -13,9 +16,13 @@ public class B extends A {
 	
 	public static void main(String[] args) {
 		B b=new B();
-		b.m3();
+		A a=new A();
+		A a1=new B();
 		
-		System.out.println(a);
+		b.m1();
+		a.m1();
+		a1.m1();
+		
 		
 	}
 	
